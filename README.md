@@ -1,4 +1,4 @@
-## intersystems-iris-docker-rest-template
+## TrakCare Chat Integration Demo
 This is a template of a REST API application built with ObjectScript in InterSystems IRIS.
 It also has OPEN API spec, 
 can be developed with Docker and VSCode,
@@ -131,3 +131,8 @@ Settings file to let you immedietly code in VSCode with [VSCode ObjectScript plu
 
 # .vscode/launch.json
 Config file if you want to debug with VSCode ObjectScript
+
+## Team
+ - Sergei Shutov
+ - Jolyon Smith
+ - Steven Potashnyk
