@@ -139,7 +139,7 @@ Config file if you want to debug with VSCode ObjectScript
  - Yuanhao Zheng
 <<<<<<< HEAD
  - Sachin Malik
- - Harshitha Acha
+ - Harshitha_ Acha
  
 =======
  - Jianjie Yu
