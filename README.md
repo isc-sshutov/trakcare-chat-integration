@@ -138,5 +138,5 @@ Config file if you want to debug with VSCode ObjectScript
  - Steven Potashnyk
  - Yuanhao Zheng
  - Sachin Malik
- - Harshitha_Acha
+ - Harshitha Acha
  
