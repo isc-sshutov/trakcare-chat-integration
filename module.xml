@@ -6,7 +6,7 @@
       <Version>1.1.0</Version>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
-      <Resource Name="dc.Sample.PKG"/>
+      <Resource Name="tc.PKG"/>
       <Dependencies>
         <ModuleReference>
           <Name>swagger-ui</Name>
