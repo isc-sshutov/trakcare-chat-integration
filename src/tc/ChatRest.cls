@@ -1,4 +1,4 @@
-Class dc.Sample.PersonREST Extends Sample.REST.Base
+Class tc.ChatRest Extends tc.RestBase
 {
 
 Parameter Version = "1.0.6";
