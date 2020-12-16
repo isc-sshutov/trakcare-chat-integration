@@ -34,7 +34,7 @@ ClassMethod GetInfo() As %Status
   RETURN ..%ProcessResult($$$OK, info)
 }
 
-/// Retreive all the records of Sample.Person
+/// Retreive all the records of dc.Sample.Person
 ClassMethod GetAllPersons() As %Status
 {
 
@@ -57,7 +57,7 @@ ClassMethod GetAllPersons() As %Status
     Quit tSC
 }
 
-/// Return one record fo Sample.Person
+/// Return one record fo dc.Sample.Person
 ClassMethod GetPerson(id As %Integer) As %Status
 {
 	#dim tSC As %Status = $$$OK
@@ -76,7 +76,7 @@ ClassMethod GetPerson(id As %Integer) As %Status
     Quit tSC
 }
 
-/// Creates a new Sample.Person record
+/// Creates a new dc.Sample.Person record
 ClassMethod CreatePerson() As %Status
 {
 	#dim tSC As %Status = $$$OK
@@ -96,7 +96,7 @@ ClassMethod CreatePerson() As %Status
     Quit tSC
 }
 
-/// Update a record in Sample.Person with id
+/// Update a record in dc.Sample.Person with id
 ClassMethod UpdatePerson(id As %Integer) As %Status
 {
 	#dim tSC As %Status = $$$OK
@@ -116,7 +116,7 @@ ClassMethod UpdatePerson(id As %Integer) As %Status
     Quit tSC
 }
 
-/// Delete a record with id in Sample.Person
+/// Delete a record with id in dc.Sample.Person
 ClassMethod DeletePerson(id As %Integer) As %Status
 {
 	#dim tSC As %Status = $$$OK
