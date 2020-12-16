@@ -8,12 +8,9 @@
       "ns": "USER",
       "username": "_SYSTEM",
       "password": "SYS",
-      "docker-compose": {
-        "service": "iris",
-        "internalPort": 52774
-      },
-      "active": true,
-      "server": "default~iris"
+      "host": "127.0.0.1",
+      "port": 52777,
+      "active": true
     },
     "sqltools.connections": [
       {
