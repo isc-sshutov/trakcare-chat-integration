@@ -24,6 +24,6 @@ jobs:
           username: _json_key
           password: ${{ secrets.GOOGLE }}
           registry: gcr.io
-          repository: zSSH/trakcare-chat
+          repository: zssh/trakcare-chat
           tag_with_ref: true
 
