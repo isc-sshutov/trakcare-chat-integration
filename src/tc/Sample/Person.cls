@@ -11,7 +11,7 @@ Property Phone As %VarString;
 
 Property DOB As %Date(MAXVAL = "$piece($horolog, "","", 1)");
 
-/// Index for property DOB test
+/// Index for property DOB
 Index DOBIndex On DOB;
 
 ClassMethod AddTestData(amount As %Integer = 10)
