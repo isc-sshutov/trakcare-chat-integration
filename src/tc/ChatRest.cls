@@ -40,17 +40,17 @@ ClassMethod GetAllPersons() As %Status
 
     #dim tSC As %Status = $$$OK
 
-    Set rset = ##class(dc.dc.Sample.Person).ExtentFunc()
+    Set rset = ##class(dc.Sample.Person).ExtentFunc()
 
     Set %response.ContentType = ..#CONTENTTYPEJSON
     Write "["
     if rset.%Next() {
-        Set person = ##class(dc.dc.Sample.Person).%OpenId(rset.ID)    
+        Set person = ##class(dc.Sample.Person).%OpenId(rset.ID)    
         Do person.%JSONExport()
     }
     While rset.%Next() {   
         Write ","
-        Set person = ##class(dc.dc.Sample.Person).%OpenId(rset.ID)    
+        Set person = ##class(dc.Sample.Person).%OpenId(rset.ID)    
         Do person.%JSONExport()
     }
     Write "]"
@@ -67,7 +67,7 @@ ClassMethod GetPerson(id As %Integer) As %Status
     #; Set the response header to plain text
     Set %response.ContentType = ..#CONTENTTYPEJSON
 
-    Set person = ##class(dc.dc.Sample.Person).%OpenId(id)
+    Set person = ##class(dc.Sample.Person).%OpenId(id)
 
     If '$IsObject(person) Quit ..Http404()
 
