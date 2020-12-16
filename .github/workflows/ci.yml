@@ -21,9 +21,9 @@ jobs:
       - name: Push to GitHub Packages
         uses: docker/build-push-action@v1
         with:
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
-          registry: docker.pkg.github.com
-          repository: isc-sshutov/trakcare-chat-integration/trakcare-chat
+          username: _json_key
+          password: ${{ secrets.GOOGLE }}
+          registry: gcr.io
+          repository: zSSH/trakcare-chat
           tag_with_ref: true
 
