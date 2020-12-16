@@ -5,12 +5,12 @@
         "iris.script": "objectscript"
       },
     "objectscript.conn" :{
-      "ns": "INTERN",
+      "ns": "USER",
       "username": "_SYSTEM",
       "password": "SYS",
       "docker-compose": {
         "service": "iris",
-        "internalPort": 52773
+        "internalPort": 52774
       },
       "active": true,
       "server": "default~iris"
